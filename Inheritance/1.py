@@ -1,0 +1,22 @@
+import requests
+class GoogleImageAPI:
+    """ A SIMPLE CLASS TO INTERACT WITH THE GOOGLE IMAGE API"""
+
+    def __init__(self, base url):
+        self.base_url = base_url
+    
+    def search_images(self, query):
+        endpoint = f"{self.base_url}/googleimg?quesry={query}"
+        headers = {"accept": "application/json"}
+        response = requests.get(endpoint, headers=headers)
+        
+        if response.status_code == 200:
+            return response.json()
+        else:
+            return {"error": f"Failed to retrieve images. Status code: {response.status_code}"}
+
+class Blackbox(GoogleImageAPI):
+    def init(self, base_url):
+        super().__init__(base_url)
+
+    def    
