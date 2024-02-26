@@ -34,6 +34,6 @@ class BankAccount:
 account = BankAccount("123456", 1000, "2024-02-26", "John Doe")
 print(account.check_balance())
 print(account.deposit(500))
-print(account.withdraw(200))
+print(account.withdraw(10000))
 print(account.check_balance())
 print(account.customer_details())
