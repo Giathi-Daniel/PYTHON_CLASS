@@ -3,14 +3,14 @@ class Circle:
         self.radius = radius
         self.diameter = 2 * radius
 
-    def Area(self):
+    def area(self):
         return 3.14 * self.radius * self.radius
 
-    def Perimeter(self):
+    def perimeter(self):
         return 3.14 * self.diameter
 
 cir = Circle(7)
 print(cir.radius)
 print(cir.diameter)
-print(cir.Area())
-print(cir.Perimeter())
+print(cir.area())
+print(cir.perimeter())
