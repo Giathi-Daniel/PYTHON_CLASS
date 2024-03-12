@@ -27,7 +27,7 @@ class SalariedEmployee(Employee):
 
 #Taking user input
 emp_id = int(input("Enter employee id: "))
-name = int(input("Enter your name: "))
+name = input("Enter your name: ")
 salary = 0 #assuming salary is 0 for the base class
 employee_type = input("Enter employee type(hourly/salaried): ")
 
