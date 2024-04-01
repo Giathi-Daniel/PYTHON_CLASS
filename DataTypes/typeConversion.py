@@ -1,6 +1,6 @@
-x = 124
-y = -12.289
-z = 10j
+x = 124 #int
+y = -12.289 #float
+z = 10j #complex number
 
 print(type(x))
 print(type(y))
@@ -9,9 +9,11 @@ print(type(z))
 # Type conversion
 x = float(x)
 print(type(x))
+print(x)
 
 y = int(y)
 print(type(y))
+print(y)
 
 
 
