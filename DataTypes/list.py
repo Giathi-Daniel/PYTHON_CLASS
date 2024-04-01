@@ -17,3 +17,18 @@ print(mylist)
 
 print(mylist.clear())
 
+
+#add all items in a list
+def sum_total(items):
+    sum_numbers = 0
+    multiply_numbers = 0
+
+    for x in items:
+        sum_numbers += x
+        multiply_numbers *= x
+
+    return sum_numbers, multiply_numbers
+    
+print(sum_total([20,23,-30]))
+print(sum_total([20,23,-30]))
+
