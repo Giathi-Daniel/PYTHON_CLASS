@@ -1,4 +1,4 @@
-mylist = ["Python", "Javascript", "C++"]
+mylist = ["Python", "Javascript", "C++", "Python"] #ordered, changeable and allow duplicate
 print(type(mylist))
 
 # for x in mylist:
