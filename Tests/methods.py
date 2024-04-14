@@ -22,3 +22,12 @@ def fun1():
     
 fun1()
 print(x)
+
+# quiz 3
+x = 75
+def myfunc():
+    x = x + 1
+    print(x)
+
+myfunc()
+print(x)
