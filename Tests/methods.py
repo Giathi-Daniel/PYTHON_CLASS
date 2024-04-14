@@ -24,10 +24,26 @@ fun1()
 print(x)
 
 # quiz 3
-x = 75
-def myfunc():
-    x = x + 1
-    print(x)
+# x = 75
+# def myfunc():
+#     x = x + 1
+#     print(x)
 
-myfunc()
+# myfunc()
+# print(x)
+
+# quiz 4
+x = 50
+def fun1():
+   global x
+   x = 20
+    # your code to assign global x = 20
+fun1()
+print(x) # it should print 20
+
+#quiz 5
+def func1():
+    x = 50
+    return x
+func1()
 print(x)
