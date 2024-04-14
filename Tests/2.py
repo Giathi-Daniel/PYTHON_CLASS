@@ -1,2 +1,5 @@
-x = 36 / 4 * (3 +  2) * 4 + 2
-print(x)
+valueOne = 5 ** 2
+valueTwo = 5 ** 3
+
+print(valueOne)
+print(valueTwo)
