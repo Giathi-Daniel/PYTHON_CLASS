@@ -38,17 +38,28 @@ print(2 ** 3 ** 2)
 print(36 / 4) #the result automatically converted to a floating number representing the quotient of the result
 
 #quiz 9
+print(36 // 4) #Division floor divides the first operand by the second (removes floating)
+
+#quiz 10
 result = 10 << 2 & 3 #<<>> operators have a higher precedence than & operator
 print(result)
 
-#quiz 10
+#quiz 11
 x = 100
 y = 50
 print(x and y) #The `AND` operator returns the first operand if it evaluates it to `FALSE`, otherwise it returns the second operand.
 
-# Quiz 11
+# Quiz 12
 print(2 * 3 ** 3 * 4) # Order of precidence. (3 ** 3) => 27; (27 *2) => 54; (54 * 4) => 216
 
-# Quiz 12
+# Quiz 13
 print(2%6) # Gives out the remainder when 2 is divided by 6
           # When the equation is solved, the quotient is 0 and the remainder is 2 (Hence the asnwer). 
+
+# Quiz 14
+a = 20
+b = 10
+print(a ^ b) #Bitwise XOR
+
+print(a >> 2) #Bitwise right shift
+print(a << 2) #Bitwise left shift
