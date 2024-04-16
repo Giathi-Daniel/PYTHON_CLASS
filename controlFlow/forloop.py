@@ -1,3 +1,14 @@
+# A simple program to illiterate through a list
+l = ["geeks", "for", "geeks"]
+
+for i in l:
+    print(i)
+
+# The program generates a sequence of numbers starting from 0, upto 10(but no including it), with a step index of 2
+for x in range(0, 10, 2):
+    print(x)   
+
+
 # Prompt the user to enter their marks
 marks = int(input("Enter your marks: "))
 
