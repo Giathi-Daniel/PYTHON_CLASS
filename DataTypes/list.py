@@ -9,7 +9,7 @@ while i < len(mylist):
     print(mylist[i])
     i = i + 1
 
-mylist.sort()
+mylist.sort() # cannot be used when we have 'int' and 'str' together
 print(mylist)
 
 mylist[2:3] = ["REACT"]
