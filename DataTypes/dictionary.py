@@ -23,5 +23,4 @@ student["name"] = "Job" #change dictionary
 print(student)
 
 student.clear()
-
 print(student)
